@@ -15,3 +15,7 @@
 
 # Download The Project
 Call me at this point and I'll walk you through it. Super easy
+
+# Awesome Resources
+* [Git Detailed Reference](http://git.github.io/git-reference/) (My favorite)
+* [Git Quick Reference](https://www.dataschool.io/git-quick-reference-for-beginners/) (Good for anyone, not just beginners)
