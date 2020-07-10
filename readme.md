@@ -6,34 +6,49 @@ Hey man! Before we have fun, we just have to do some ugly setup stuff. It's usua
 ### We need: **Git**, and a **code editor**. If you're on a Mac or Linux, you also need **Homebrew**.
 
 ### What Is Git?
-*Git* tracks changes made to our code and allows you to *push* those changes to the repository (or 'repo') which is the GitHub link up in the address bar above. From there, I *pull* (or download) those changes to my machine. Then I make my changes/additions and *push* my code to the repo as well. You *pull* those changes, and the cycle just keeps going, pushing and pulling. It's mean as hell when you think about it :laughing:
+*Git* tracks changes made to our code and allows you to *push* those changes to the repository (or 'repo') which is the GitHub link up in the address bar above. From there, I *pull* (or download) those changes to my machine. Then I make my changes/additions and *push* my code to the repo as well. You *pull* those changes, and the cycle just keeps going, pushing and pulling. It's mean as hell when you think about it. There's a lot more it can do, but that's the main idea.
 
 ## Download Links
 
 ### Windows
 
-If you're on a Windows computer, you need **GitBash** which comes with a Linux terminal *and* Git. 
+You need **GitBash** which comes with a Linux terminal *and* Git. 
 Just make sure to get the correct installer (32-bit or 64-bit depending on your computer's operating system.)
 
 [Windows: GitBash (comes with Git)](https://github.com/git-for-windows/git/releases/tag/v2.27.0.windows.1)
-
-### Mac & Linux
-Mac & Linux just need to install **Homebrew** and **Git**. Homebrew is basically a package manager that allows you to download programs to your machine from the web. Think of it like a command-prompt version of Window's GUI installers. (Ever installed a game or a program on a Windows machine and had click next, next, next, yes, next, next, Done?? Same thing basically.)
-
-Homebrew will allow you to install Git on your machine easily.
-
-[Mac/Linux: Homebrew](https://brew.sh/) -- Download first, then come back and download Git below
-
-[Mac/Linux: Git](https://git-scm.com/download/mac) -- Install using Homebrew (instructions on website)
-
-
 
 ### Code Editor
 You'll also need a good code editor. You may already have one, but if not I **highly** recommend **[Visual Studio Code](https://code.visualstudio.com/)**. If you decide to install and run it, click on the **Extensions button** on the far left and type in "Python" and install the first one that pops up (Python by Microsoft)
 
 ![](python-ext.png)
 
-That's about it! If you end up using Visual Studio Code & you're on Windows, let me know, there's one or two more adjustments we'll have to make, but other than that I *thiinkkkk* we should be good to go.
+### Terminal Setup (for Visual Studio Code only)
+If you decide to use Visual Studio Code, we need to tell it we want to use the GitBash terminal *rather than* the traditional Windows Command Line Prompt (which is awful btw.)
+
+1. Open Visual Studio Code (close all projects, nothing should be open)
+
+2. Click "Terminal" > "New Terminal" up top in the menu bar
+
+![](new-terminal.png)
+
+3. Open the command palette using Ctrl + Shift + P.
+
+4. Start typing "Select Default Shell" and choose it when it appears
+
+![](command-pallete-shell.png)
+
+5. Select Git Bash from the options
+
+![](select-default-shell.png)
+
+6. Click on the + icon in the terminal window.
+
+![](select-plus-sign.png)
+
+7. The new terminal now will be a Git Bash terminal. Give it a few seconds to load Git Bash (may have to restart VSCode)
+
+Even if you don't *have* to restart VSCode, I would restart it anyway so you can make sure it works. Restart it, click "Terminal" > "New Terminal", and see if the terminal looks different now (should have green, purple, & yellow colors)
+
 
 # Now What?
 At this point, call me when we both have some free time, I usually get home around 5pm-ish during the week and 1pm on Saturdays. I'm off on Sundays for now.
