@@ -15,7 +15,7 @@ You'll also need a good code editor. You may already have one, but if not I **hi
 
 If you decide to install and run it, click on the **Extensions button** on the far left and type in "Python" and install the first one that pops up (Python by Microsoft)
 
-![](python-ext.png)
+![](readme-images/python-ext.png)
 
 Last thing, we need to tell it we want to use the GitBash terminal *rather than* the traditional Windows Command Line Prompt
 
@@ -23,21 +23,21 @@ Last thing, we need to tell it we want to use the GitBash terminal *rather than*
 
 2. Click "Terminal" > "New Terminal" up top in the menu bar
 
-![](images/new-terminal.png)
+![](readme-images/new-terminal.png)
 
 3. Open the command palette using Ctrl + Shift + P.
 
 4. Start typing "Select Default Shell" and choose it when it appears
 
-![](images/command-pallete-shell.png)
+![](readme-images/command-pallete-shell.png)
 
 5. Select Git Bash from the options
 
-![](images/select-default-shell.png)
+![](readme-images/select-default-shell.png)
 
 6. Click on the + icon in the terminal window.
 
-![](images/select-plus-sign.png)
+![](readme-images/select-plus-sign.png)
 
 7. The new terminal should now be a Git Bash terminal. Give it a few seconds to load Git Bash (may have to restart VSCode)
 
